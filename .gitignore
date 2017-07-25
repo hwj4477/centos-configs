@@ -1,0 +1,31 @@
+#banary files
+*.o
+*.lo
+*.la
+*.al
+.libs
+*.so
+*.so.[0-9]*
+*.a
+*.pyc
+*.pyo
+*.class
+
+# temporary/history files & dirs
+*.swp
+*~.nib
+.cache/
+tmp/
+
+# other scm files/dirs
+.svn
+.cvs
+
+# ruby
+.gem
+.rvm
+.bundle
+.bundler
+
+# vim (bundle)
+.vim
