@@ -12,13 +12,13 @@
 
 # Command Line History (newest to oldest):
 :wq
+:q
 :set paste
 :paste
 :copy
 :pasted
 :p
 :w
-:q
 :PluginInstall
 :vim +PluginInstall +qall
 :install plugin
@@ -36,18 +36,28 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+		helper = osxkeychain
+"2	LINE	0
+	[credential]
 
 # global variables:
 
 # File marks:
-'0  22  3  ~/.gitignore
-'1  1  13  ~/.gitignore
-'2  9  0  ~/README.md
-'3  1  0  ~/vim
-'4  8  57  ~/README.md
-'5  28  29  ~/bin/setup.sh
+'0  14  0  ~/.gitconfig
+'1  8  43  ~/.git/config
+'2  22  3  ~/.gitignore
+'3  1  13  ~/.gitignore
+'4  9  0  ~/README.md
+'5  1  0  ~/vim
+'6  8  57  ~/README.md
+'7  28  29  ~/bin/setup.sh
 
 # Jumplist (newest first):
+-'  14  0  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  8  43  ~/.git/config
+-'  1  0  ~/.git/config
 -'  22  3  ~/.gitignore
 -'  1  4  ~/.gitignore
 -'  9  0  ~/README.md
@@ -140,8 +150,20 @@
 -'  1  0  ~/bin/setup.sh
 -'  28  29  ~/bin/setup.sh
 -'  1  0  ~/bin/setup.sh
+-'  22  3  ~/.gitignore
+-'  1  4  ~/.gitignore
+-'  9  0  ~/README.md
+-'  1  0  ~/vim
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitconfig
+	"	14	0
+	.	13	0
+	+	13	0
+
+> ~/.git/config
+	"	8	43
 
 > ~/.gitignore
 	"	22	3

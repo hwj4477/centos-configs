@@ -10,8 +10,6 @@
 [user]
 	name = hwj4477
 	email = hwj4477@gmail.com
-[credential]
-	helper = osxkeychain
 [alias]
 	ci = commit
 	st = status
