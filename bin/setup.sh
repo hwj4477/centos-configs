@@ -13,7 +13,7 @@
 REPOSITORY="git://github.com/hwj4477/centos-configs"
 TMP_DIR="$HOME/configs.tmp"
 
-echo -e "\033[32mThis script will setup several things for your Raspberry Pi\033[0m\n"
+echo -e "\033[32mThis script will setup several things for your CentOS\033[0m\n"
 
 # authenticate for sudo if needed
 sudo -l > /dev/null
@@ -21,8 +21,8 @@ sudo -l > /dev/null
 # clone config files
 if ! which git > /dev/null; then
         echo -e "\033[33m>>> installing git...\033[0m"
-        sudo apt-get update
-        sudo apt-get -y install git
+        sudo yun update
+        sudo yum -y install git
 fi
 rm -rf $TMP_DIR
 git clone $REPOSITORY $TMP_DIR
@@ -34,17 +34,17 @@ rm -rf $TMP_DIR
 
 # upgrade packages
 echo -e "\033[33m>>> upgrading installed packages...\033[0m"
-sudo apt-get update
-sudo apt-get -y upgrade
+sudo yum update
+sudo yum -y upgrade
 
 # install other essential packages
 echo -e "\033[33m>>> installing other essential packages...\033[0m"
-sudo apt-get -y install vim tmux mosh
+sudo yum -y install vim tmux mosh
 
 # cleanup
 echo -e "\033[33m>>> cleaning up...\033[0m"
-sudo apt-get -y autoremove
-sudo apt-get -y autoclean
+sudo yum -y autoremove
+sudo yum -y autoclean
 
 # install RVM and Ruby for single user
 echo -e "\033[33m>>> installing RVM and Ruby...\033[0m"
