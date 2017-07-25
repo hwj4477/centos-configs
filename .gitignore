@@ -30,3 +30,6 @@ tmp/
 # vim (bundle)
 .vim
 .viminfo
+
+# etc
+.ssh
